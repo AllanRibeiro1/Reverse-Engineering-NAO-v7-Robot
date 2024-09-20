@@ -17,7 +17,7 @@ a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede M
 surgiu durante o Hackathon para colaborar com a Comunidade Científica e Tecnológica do Porto Digital
 bem como as Comunidades: Software Livre, Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
 
-##Vamos em Frente!
+## Vamos em Frente!
 
 Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NAO > Inicia o seu Funcionamento > Sistema Carregado, 
 segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO > Digita Login e Senha > 
