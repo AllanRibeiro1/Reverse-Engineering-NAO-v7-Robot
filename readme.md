@@ -6,14 +6,18 @@ Estudantes de várias instituições privadas do Projeto Embarque Digital foram 
 Desafio de Integração do Robô NAO, robores empregados no ensino básico municipal há 10 anos, com 
 a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede Municipal do Recife.
 
-No Primeiro momento a ideia é explorar o Sistema Operacional do Robô NAO v7, e no Segundo momento
-explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
+![NAO Canvas Engenharia Reversa](https://github.com/user-attachments/assets/e7bfa0da-7063-4be5-99bb-86bf1b29bb4f)
+
+
+## Ideia 
+.Explorar o Sistema Operacional do Robô NAO v7.
+.Explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
 
 É uma oportunidade para gerar conhecimentos e aprendizados qualitativos para todos envolvidos que 
 surgiu durante o Hackathon para colaborar com a Comunidade Científica e Tecnológica do Porto Digital
 bem como as Comunidades: Software Livre, Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
 
-Vamos em Frente!
+##Vamos em Frente!
 
 Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NAO > Inicia o seu Funcionamento > Sistema Carregado, 
 segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO > Digita Login e Senha > 
