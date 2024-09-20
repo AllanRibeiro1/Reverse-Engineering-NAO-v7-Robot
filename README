@@ -1,5 +1,41 @@
-Este projeto visa a colaboração para Engenharia Reversa no Robô NAO v7 
-parte do Hackathon promovido pelo CETEC e PortoDigital do Recife com ajuda da EMPREL.
+Este projeto visa a colaboração para Engenharia Reversa do Robô NAO v7, parte do Hackathon 
+promovido pelo CETEC e a Residência Tecnológica do Porto Digital do Recife com ajuda da EMPREL.
+Estudantes de várias instituições privadas do Projeto Embarque Digital foram convidados para um 
+Desafio de Integração do Robô NAO, robores empregados no ensino básico municipal há 10 anos, com 
+a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede Municipal do Recife.
+
+No Primeiro momento a ideia é explorar o Sistema Operacional do Robô NAO v7, e no Segundo momento
+explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
+
+É uma oportunidade para gera conhecimentos e aprendizados qualitativos para todos envolvidos que 
+surgiu durante o Hackathon para colaborar com a Comunidade Científica e Tecnológica do Porto Digital
+bem como as Comunidades: Software Livre, Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
+
+Vamos em Frente!
+
+Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NAO > Inicia o seu Funcionamento 
+> Espera carregar e segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO 
+> Digita Login e Senha > Abre o Prompt Shell do NAO Robô
+
+
+login as:
+Keyboard-interactive authentication prompts from server:
+| Password:
+End of keyboard-interactive prompts from server
+nao7 [0] ~ $ dir
+_controle-robo-nao  controle-robo-nao.sh  diagnosis  escutando.wav  naoqi
+nao7 [0] ~ $ ls -a
+.   .bash_history  .esd_auth        .ipython  .python-history  .trousers
+..  .config        .gstreamer-0.10  .local    .rnd             _controle-robo-na
+nao7 [0] ~ $
+
+
+
+
+
+
+
+
 
 
 
