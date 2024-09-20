@@ -9,7 +9,7 @@ a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede M
 ![NAO Canvas Engenharia Reversa](https://github.com/user-attachments/assets/e7bfa0da-7063-4be5-99bb-86bf1b29bb4f)
 
 
-## Ideia 
+## Ideia / Projeto 
 1. Explorar o Sistema Operacional do Robô NAO v7.
 2. Explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
 
