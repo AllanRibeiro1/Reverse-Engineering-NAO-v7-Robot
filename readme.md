@@ -23,7 +23,7 @@ Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NA
 segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO > Digita Login e Senha > 
 Abre o Prompt Shell do NAO Robô!
 
-~~~ShellScript
+~~~
 login as:
 Keyboard-interactive authentication prompts from server:
 | Password:
@@ -39,8 +39,8 @@ nao7 [0] ~ $
 Os arquivos que estão com um ponto "." na frente, são arquivos ocultos, e o arquivo  "controle-robo-nao.sh" 
 o nome já diz tudo! O Robô NAO é basicamente um LINUX modificado.
 
-~~~Diretórios dentro de ~:
-
+Diretórios dentro de ~:
+~~~
 _controle-robo-nao
 controle-robo-nao.sh
 diagnosis
@@ -48,8 +48,8 @@ escutando.wav
 naoqi
 ~~~
 
-~~~Arquivos Ocultos dentro de ~:
-
+Arquivos Ocultos dentro de ~:
+~~~
 .bash_history
 .esd_auth
 .ipython  
