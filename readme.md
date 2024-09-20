@@ -1,5 +1,23 @@
-## Oi eu sou a Allan Igor, Cibersegurança Linux e Robótica desde 2010. 
-Tec. Automotiva Tec. Informática Tec. Mecatrônica e amante da Tecnologia desde 1994, quando nasci!
+## Engenharia Reversa Robô NAO v7 
+
+Este projeto visa a colaboração para Engenharia Reversa do Robô NAO v7, parte do Hackathon 
+promovido pelo CETEC e a Residência Tecnológica do Porto Digital do Recife com ajuda da EMPREL.
+Estudantes de várias instituições privadas do Projeto Embarque Digital foram convidados para um 
+Desafio de Integração do Robô NAO, robores empregados no ensino básico municipal há 10 anos, com 
+a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede Municipal do Recife.
+
+No Primeiro momento a ideia é explorar o Sistema Operacional do Robô NAO v7, e no Segundo momento
+explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
+
+É uma oportunidade para gerar conhecimentos e aprendizados qualitativos para todos envolvidos que 
+surgiu durante o Hackathon para colaborar com a Comunidade Científica e Tecnológica do Porto Digital
+bem como as Comunidades: Software Livre, Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
+
+Vamos em Frente!
+
+Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NAO > Inicia o seu Funcionamento 
+> Sistema Carregado, segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO 
+> Digita Login e Senha > Abre o Prompt Shell do NAO Robô!
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
