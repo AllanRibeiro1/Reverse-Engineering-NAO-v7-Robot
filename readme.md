@@ -15,9 +15,9 @@ bem como as Comunidades: Software Livre, Hardware Livre, Maker, Entusiastas, Emp
 
 Vamos em Frente!
 
-Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NAO > Inicia o seu Funcionamento 
-> Sistema Carregado, segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO 
-> Digita Login e Senha > Abre o Prompt Shell do NAO Robô!
+Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NAO > Inicia o seu Funcionamento > Sistema Carregado, 
+segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO > Digita Login e Senha > 
+Abre o Prompt Shell do NAO Robô!
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
