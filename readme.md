@@ -10,8 +10,8 @@ a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede M
 
 
 ## Ideia 
-.Explorar o Sistema Operacional do Robô NAO v7.
-.Explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
+1. Explorar o Sistema Operacional do Robô NAO v7.
+2. Explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
 
 É uma oportunidade para gerar conhecimentos e aprendizados qualitativos para todos envolvidos que 
 surgiu durante o Hackathon para colaborar com a Comunidade Científica e Tecnológica do Porto Digital
