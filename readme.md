@@ -39,7 +39,7 @@ nao7 [0] ~ $
 Os arquivos que estão com um ponto "." na frente, são arquivos ocultos, e o arquivo  "controle-robo-nao.sh" 
 o nome já diz tudo! O Robô NAO é basicamente um LINUX modificado.
 
-Diretórios dentro de ~:
+Diretórios dentro de /home/nao ~:
 ~~~
 _controle-robo-nao
 controle-robo-nao.sh
@@ -48,7 +48,7 @@ escutando.wav
 naoqi
 ~~~
 
-Arquivos Ocultos dentro de ~:
+Arquivos Ocultos dentro de /home/nao ~:
 ~~~
 .bash_history
 .esd_auth
