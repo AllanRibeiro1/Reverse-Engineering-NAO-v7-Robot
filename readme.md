@@ -23,6 +23,43 @@ Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NA
 segura o Botão NAO por 5 segundos > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO > Digita Login e Senha > 
 Abre o Prompt Shell do NAO Robô!
 
+~~~ShellScript
+login as:
+Keyboard-interactive authentication prompts from server:
+| Password:
+End of keyboard-interactive prompts from server
+nao7 [0] ~ $ dir
+_controle-robo-nao  controle-robo-nao.sh  diagnosis  escutando.wav  naoqi
+nao7 [0] ~ $ ls -a
+.   .bash_history  .esd_auth        .ipython  .python-history  .trousers
+..  .config        .gstreamer-0.10  .local    .rnd             _controle-robo-na
+nao7 [0] ~ $
+~~~~
+
+Os arquivos que estão com um ponto "." na frente, são arquivos ocultos, e o arquivo  "controle-robo-nao.sh" 
+o nome já diz tudo! O Robô NAO é basicamente um LINUX modificado.
+
+~~~Diretórios dentro de ~:
+
+_controle-robo-nao
+controle-robo-nao.sh
+diagnosis
+escutando.wav
+naoqi
+~~~
+
+~~~Arquivos Ocultos dentro de ~:
+
+.bash_history
+.esd_auth
+.ipython  
+.python-history
+.trousers
+.config 
+.gstreamer-0.10
+.local
+.rnd  
+~~~
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Igor-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
