@@ -120,7 +120,7 @@ overlay          25G  1.4G   22G   6% /etc
 tmpfs           385M  3.4M  381M   1% /run/user/1001
 ~~~
 
-Listamos as informações sobre todos os dispositivos de bloco conectados ao sistema "lsblk".
+Listamos as informações sobre todos os dispositivos de bloco conectados ao sistema com o comando "lsblk".
 Inclui discos rígidos, SSDs, partições e dispositivos removíveis como pen drives. 
 
 ~~~
