@@ -320,8 +320,8 @@ o comando "lshw", mas o "bash", que é o interpretador do Shell retornou um erro
 com os comandos que o NAO v7 pode suportar. Continue-mos nossa exploração...
 
 Com o comando "top" verifiquei os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Movimentando".
-Foi bem interessante esta exploração, do lado esquerdo do vídeo, o Robô Nao v7 esta "parado", e no lado direito do vídeo o NAO está execultando
-uma performance de "Alongamento Academia" com som e movimentos dos braços e sensores. Vejam a seguir o robô parado: 
+Foi bem interessante esta exploração! Do lado esquerdo do vídeo o Robô Nao v7 esta "parado", e do lado direito do vídeo o NAO está execultando
+uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe", com som e movimentos dos braços e sensores. Vejam a seguir o robô parado: 
 
 ````
 # Robô NAO v7 PARADO
