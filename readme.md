@@ -311,7 +311,7 @@ lrwxrwxrwx  1 root root      18 Oct 14  2019 cat -> /bin/cat.coreutils
 lrwxrwxrwx  1 root root      21 Oct 14  2019 chattr -> /bin/chattr.e2fsprogs
 -rwxr-xr-x  1 root root   13648 Oct 14  2019 chattr.e2fsprogs
 lrwxrwxrwx  1 root root      20 Oct 14  2019 chgrp -> /bin/chgrp.coreutils
--rwxr-xr-x  1 root root   87520 Oct 14  2019 chgrp.coreutils
+-rwxr-xr-x  1 root root   87520 Oct 14  2019 chgrp.coreutils..........................................................
 ```
 
 <div style="display: inline_block"><br>
