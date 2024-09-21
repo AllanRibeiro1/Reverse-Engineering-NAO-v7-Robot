@@ -143,15 +143,13 @@ do sistema é o /bin com comanso "ls -l -a" que combina duas opções do comando
 
 
 <details>
-  <summary>Clique para expandir o código</summary>
+  <summary>..........CLIQUE PARA EXPANDIR O CÓDIGO............</summary>
 
   ```
 
 nao7 [0] / $ ls
 bin  boot  breakpad-syms  data  dev  etc  home  lib  lost+found  media  mnt  nao  opt  proc  root  run  sbin  settings  srv  sys  tmp  usr  var
 nao7 [0] / $ cd /bin
-usr
-nao7 [0] / $ cd bin/
 nao7 [0] /bin $ ls -l -a
 total 7080
 drwxr-xr-x  2 root root    4096 Oct 14  2019 .
@@ -295,7 +293,26 @@ lrwxrwxrwx  1 root root      14 Oct 14  2019 zcat -> /bin/zcat.gzip
 ```
 </details>
 
+```
 
+nao7 [0] / $ ls
+bin  boot  breakpad-syms  data  dev  etc  home  lib  lost+found  media  mnt  nao  opt  proc  root  run  sbin  settings  srv  sys  tmp  usr  var
+nao7 [0] / $ cd /bin
+nao7 [0] /bin $ ls -l -a
+total 7080
+drwxr-xr-x  2 root root    4096 Oct 14  2019 .
+drwxr-xr-x 24 root root    4096 Aug 20  2021 ..
+-rwxr-xr-x  1 root root   25992 Oct 14  2019 arping
+lrwxrwxrwx  1 root root      25 Oct 14  2019 base64 -> /usr/bin/base64.coreutils
+lrwxrwxrwx  1 root root      14 Oct 14  2019 bash -> /bin/bash.bash
+-rwxr-xr-x  1 root root 1243444 Oct 14  2019 bash.bash
+lrwxrwxrwx  1 root root      18 Oct 14  2019 cat -> /bin/cat.coreutils
+-rwxr-xr-x  1 root root   46592 Oct 14  2019 cat.coreutils
+lrwxrwxrwx  1 root root      21 Oct 14  2019 chattr -> /bin/chattr.e2fsprogs
+-rwxr-xr-x  1 root root   13648 Oct 14  2019 chattr.e2fsprogs
+lrwxrwxrwx  1 root root      20 Oct 14  2019 chgrp -> /bin/chgrp.coreutils
+-rwxr-xr-x  1 root root   87520 Oct 14  2019 chgrp.coreutils
+```
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
