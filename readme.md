@@ -324,8 +324,11 @@ Foi bem interessante esta exploração, do lado esquerdo do vídeo, o Robô Nao 
 uma performance de "Alongamento Academia" com som e movimentos dos braços e sensores. Vejam a seguir: 
 
 ````
+# Robô NAO v7 PARADO
 nao7 [0] / $ top
 ````
+![TOP PARADO NAO V7](https://github.com/user-attachments/assets/00115364-d42b-4e51-865e-a9362e9bc5cb)
+
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
