@@ -60,6 +60,96 @@ Arquivos Ocultos dentro de /home/nao ~:
 .local
 .rnd  
 ~~~
+
+## Navegando no NAO v7
+
+Voltaremos a falar dos aquivos e diretórios em /home/nao (~ $) mais na frente.
+Mas antes, vamos deixar algumas coisas claras, este tutorial, em princípio, entende que você 
+conhece SHELL SCRIPT, pois o ambiente é unicamente Prompt de Comando com Kernel LINUX 2.
+
+Vamos explorar o Sistema Operacional do Robô...
+
+Fiz uma tentativa de salvar tudo de /home/nao/ com o comando curl mas o SO retornou um erro
+pois o NAO v7 não tem os serviços sftp e scp para transferência de arquivos pela rede.
+
+~~~
+#sftp
+curl -u userNao:senhaNao sftp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
+                               [IP DO ROBÔ NAO]
+#scp
+curl -u userNao:senhaNao scp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
+                              [IP DO ROBÔ NAO]
+
+~~~
+
+Com o comando "uname -a" para detalhar o sistema e arquitetura. O Nao7 tem uma versão Linux 4.4.185-rt184-aldebaran x86_64.
+Pode ver detalhes 4.4.185-rt184-aldebaran do neste repositório LINK.
+
+~~~
+nao7 [err 1] / $ uname -a
+Linux nao7 4.4.185-rt184-aldebaran #1 SMP PREEMPT RT Mon Oct 14 14:20:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+ 
+~~~
+
+Listamos as informações de memória com o comando free -h.
+
+~~~
+nao7 [err 130] / $ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          3.8Gi       1.2Gi       2.0Gi        13Mi       573Mi       2.5Gi
+Swap:            0B          0B          0B
+~~~
+
+Listamos as informações de uso do disco com o comando df -h.
+
+~~~
+nao7 [err 130] / $ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       1.5G  1.4G   35M  98% /
+devtmpfs        1.9G     0  1.9G   0% /dev
+tmpfs           1.9G  792K  1.9G   1% /dev/shm
+tmpfs           250M  8.8M  242M   4% /run
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+tmpfs           1.9G   24K  1.9G   1% /tmp
+tmpfs           200M  164K  200M   1% /var/volatile
+/dev/mmcblk0p1  120M  8.3M  106M   8% /media/internal
+/dev/mmcblk0p4   25G  1.4G   22G   6% /data
+overlay          25G  1.4G   22G   6% /var/lib
+overlay          25G  1.4G   22G   6% /etc
+tmpfs           385M  3.4M  381M   1% /run/user/1001
+~~~
+
+Listamos as informações sobre todos os dispositivos de bloco conectados ao sistema "lsblk".
+Inclui discos rígidos, SSDs, partições e dispositivos removíveis como pen drives. 
+
+~~~
+
+nao7 [err 130] / $ lsblk
+NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+mmcblk0      179:0    0 29.1G  0 disk
+|-mmcblk0p1  179:1    0  128M  0 part /media/internal
+|-mmcblk0p2  179:2    0   64M  0 part
+|-mmcblk0p3  179:3    0  3.8G  0 part /
+`-mmcblk0p4  179:4    0 25.1G  0 part /data
+mmcblk0boot0 179:8    0    4M  1 disk
+mmcblk0boot1 179:16   0    4M  1 disk
+mmcblk0rpmb  179:24   0    4M  0 disk
+
+~~~
+
+Vejamos quais comandos do Sitema NAO v7 podemos utilizar; o diretório do Linux que guarda todos os comandos 
+do sistema é o /bin/bash >...
+
+
+~~~
+nao7 [0] / $ ls
+bin  boot  breakpad-syms  data  dev  etc  home  lib  lost+found  media  mnt  nao  opt  proc  root  run  sbin  settings  srv  sys  tmp  usr  var
+nao7 [0] / $ cd /bin/bash
+
+~~~
+
+
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Igor-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
