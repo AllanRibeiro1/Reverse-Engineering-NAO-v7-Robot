@@ -73,20 +73,21 @@ Fiz uma tentativa de salvar tudo de /home/nao/ com o comando "curl", mas o SO re
 pois o NAO v7 não tem os serviços "sftp" e "scp" para transferência de arquivos pela rede.
 
 ~~~
+
 #sftp
-curl -u userNao:senhaNao sftp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
-                               [IP DO ROBÔ NAO]
+nao7 [0] / $ curl -u userNao:senhaNao sftp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
+                                            [IP DO ROBÔ NAO]
 #scp
-curl -u userNao:senhaNao scp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
-                              [IP DO ROBÔ NAO]
+nao7 [0] / $ curl -u userNao:senhaNao scp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
+                                           [IP DO ROBÔ NAO]
 
 ~~~
 
-Com o comando "uname -a" para detalhar o sistema e arquitetura. O Nao7 tem uma versão Linux 4.4.185-rt184-aldebaran x86_64.
-Pode ver detalhes 4.4.185-rt184-aldebaran do neste repositório LINK.
+O comando "uname -a" detalha o sistema e sua arquitetura. O Nao7 tem uma versão "Linux 4.4.185-rt184-aldebaran x86_64".
+Pode ver detalhes da versão "4.4.185-rt184-aldebaran" em nosso repositório LINK.
 
 ~~~
-nao7 [err 1] / $ uname -a
+nao7 [0] / $ uname -a
 Linux nao7 4.4.185-rt184-aldebaran #1 SMP PREEMPT RT Mon Oct 14 14:20:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
  
 ~~~
@@ -94,7 +95,7 @@ Linux nao7 4.4.185-rt184-aldebaran #1 SMP PREEMPT RT Mon Oct 14 14:20:37 UTC 201
 Listamos as informações de memória com o comando free -h.
 
 ~~~
-nao7 [err 130] / $ free -h
+nao7 [0] / $ free -h
               total        used        free      shared  buff/cache   available
 Mem:          3.8Gi       1.2Gi       2.0Gi        13Mi       573Mi       2.5Gi
 Swap:            0B          0B          0B
@@ -103,7 +104,7 @@ Swap:            0B          0B          0B
 Listamos as informações de uso do disco com o comando df -h.
 
 ~~~
-nao7 [err 130] / $ df -h
+nao7 [0] / $ df -h
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/root       1.5G  1.4G   35M  98% /
 devtmpfs        1.9G     0  1.9G   0% /dev
@@ -124,7 +125,7 @@ Inclui discos rígidos, SSDs, partições e dispositivos removíveis como pen dr
 
 ~~~
 
-nao7 [err 130] / $ lsblk
+nao7 [0] / $ lsblk
 NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 mmcblk0      179:0    0 29.1G  0 disk
 |-mmcblk0p1  179:1    0  128M  0 part /media/internal
