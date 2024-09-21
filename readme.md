@@ -69,8 +69,8 @@ conhece SHELL SCRIPT, pois o ambiente é unicamente Prompt de Comando com Kernel
 
 Vamos explorar o Sistema Operacional do Robô...
 
-Fiz uma tentativa de salvar tudo de /home/nao/ com o comando curl mas o SO retornou um erro
-pois o NAO v7 não tem os serviços sftp e scp para transferência de arquivos pela rede.
+Fiz uma tentativa de salvar tudo de /home/nao/ com o comando "curl", mas o SO retornou um erro
+pois o NAO v7 não tem os serviços "sftp" e "scp" para transferência de arquivos pela rede.
 
 ~~~
 #sftp
