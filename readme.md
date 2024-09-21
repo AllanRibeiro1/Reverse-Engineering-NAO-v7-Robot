@@ -314,6 +314,19 @@ lrwxrwxrwx  1 root root      20 Oct 14  2019 chgrp -> /bin/chgrp.coreutils
 -rwxr-xr-x  1 root root   87520 Oct 14  2019 chgrp.coreutils..........................................................
 ```
 
+Não é nosso propósito informar cada comando, executável e interpretador constidos no diretório /bin. Mas uma breve
+explicação dos motivos de listar os arquivos deste diretório: Tentei obter informações de hardware do NAO v7 com
+o comando "lshw", mas o "bash", que é o interpretador do Shell retornou um erro. Por enquanto só podemos trabalhar 
+com os comando que o NAO v7 pode suportar. Continue-mos nossa exploração...
+
+Com o comando "top" verifiquei os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Movimentando".
+Foi bem interessante esta exploração, do lado esquerdo do vídeo, o Robô Nao v7 esta "parado", e no lado direito do vídeo o NAO está execultando
+uma performance de "Alongamento Academia" com som e movimentos dos braços e sensores. Vejam a seguir: 
+
+````
+nao7 [0] / $ top
+````
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Igor-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
