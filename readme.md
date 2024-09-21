@@ -92,7 +92,7 @@ Linux nao7 4.4.185-rt184-aldebaran #1 SMP PREEMPT RT Mon Oct 14 14:20:37 UTC 201
  
 ~~~
 
-Listamos as informações de memória com o comando free -h.
+Listamos as informações de memória com o comando "free -h".
 
 ~~~
 nao7 [0] / $ free -h
@@ -101,7 +101,7 @@ Mem:          3.8Gi       1.2Gi       2.0Gi        13Mi       573Mi       2.5Gi
 Swap:            0B          0B          0B
 ~~~
 
-Listamos as informações de uso do disco com o comando df -h.
+Listamos as informações de uso do disco com o comando "df -h".
 
 ~~~
 nao7 [0] / $ df -h
