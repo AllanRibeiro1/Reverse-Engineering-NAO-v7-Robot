@@ -139,7 +139,7 @@ mmcblk0rpmb  179:24   0    4M  0 disk
 ~~~
 
 Vejamos quais comandos do Sitema NAO v7 podemos utilizar; o diretório do Linux que guarda todos os comandos 
-do sistema é o /bin com comanso "ls -l -a" que combina duas opções do comando "ls" para listar arquivos e diretórios com mais detalhes e incluir arquivos ocultos.
+do sistema é o /bin com comando "ls -l -a" que combina duas opções do comando "ls" para listar arquivos e diretórios com mais detalhes e incluir arquivos ocultos.
 
 
 <details>
@@ -294,7 +294,7 @@ lrwxrwxrwx  1 root root      14 Oct 14  2019 zcat -> /bin/zcat.gzip
 </details>
 
 ```
-
+# Pré-apresentação do diretório /bin clique em ">>CLIQUE PARA EXPANDIR O CÓDIGO<<" para ver completo!
 nao7 [0] / $ ls
 bin  boot  breakpad-syms  data  dev  etc  home  lib  lost+found  media  mnt  nao  opt  proc  root  run  sbin  settings  srv  sys  tmp  usr  var
 nao7 [0] / $ cd /bin
