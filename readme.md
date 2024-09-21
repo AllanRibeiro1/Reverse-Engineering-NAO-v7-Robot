@@ -142,7 +142,11 @@ Vejamos quais comandos do Sitema NAO v7 podemos utilizar; o diretório do Linux 
 do sistema é o /bin com comanso "ls -l -a" que combina duas opções do comando "ls" para listar arquivos e diretórios com mais detalhes e incluir arquivos ocultos.
 
 
-~~~
+<details>
+  <summary>Clique para expandir o código</summary>
+
+  ```
+
 nao7 [0] / $ ls
 bin  boot  breakpad-syms  data  dev  etc  home  lib  lost+found  media  mnt  nao  opt  proc  root  run  sbin  settings  srv  sys  tmp  usr  var
 nao7 [0] / $ cd /bin
@@ -288,7 +292,8 @@ lrwxrwxrwx  1 root root      17 Oct 14  2019 watch -> /bin/watch.procps
 lrwxrwxrwx  1 root root      14 Oct 14  2019 zcat -> /bin/zcat.gzip
 -rwxr-xr-x  1 root root    1983 Oct 14  2019 zcat.gzip
 
-~~~
+```
+</details>
 
 
 
