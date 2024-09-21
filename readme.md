@@ -83,7 +83,7 @@ nao7 [0] / $ curl -u userNao:senhaNao scp://169.254.156.177/home/nao/* -o C:\Use
 
 ~~~
 
-O comando "uname -a" detalha o sistema e sua arquitetura. O Nao7 tem uma versão "Linux 4.4.185-rt184-aldebaran x86_64".
+O comando "uname -a" detalha o sistema e sua arquitetura. O Nao7 tem uma versão "Linux 4.4.185-rt184-aldebaran x86_64 GNU/LINUX".
 Pode ver detalhes da versão "4.4.185-rt184-aldebaran" em nosso repositório LINK.
 
 ~~~
@@ -139,13 +139,154 @@ mmcblk0rpmb  179:24   0    4M  0 disk
 ~~~
 
 Vejamos quais comandos do Sitema NAO v7 podemos utilizar; o diretório do Linux que guarda todos os comandos 
-do sistema é o /bin/bash >...
+do sistema é o /bin com comanso "ls -l -a" que combina duas opções do comando "ls" para listar arquivos e diretórios com mais detalhes e incluir arquivos ocultos.
 
 
 ~~~
 nao7 [0] / $ ls
 bin  boot  breakpad-syms  data  dev  etc  home  lib  lost+found  media  mnt  nao  opt  proc  root  run  sbin  settings  srv  sys  tmp  usr  var
-nao7 [0] / $ cd /bin/bash
+nao7 [0] / $ cd /bin
+usr
+nao7 [0] / $ cd bin/
+nao7 [0] /bin $ ls -l -a
+total 7080
+drwxr-xr-x  2 root root    4096 Oct 14  2019 .
+drwxr-xr-x 24 root root    4096 Aug 20  2021 ..
+-rwxr-xr-x  1 root root   25992 Oct 14  2019 arping
+lrwxrwxrwx  1 root root      25 Oct 14  2019 base64 -> /usr/bin/base64.coreutils
+lrwxrwxrwx  1 root root      14 Oct 14  2019 bash -> /bin/bash.bash
+-rwxr-xr-x  1 root root 1243444 Oct 14  2019 bash.bash
+lrwxrwxrwx  1 root root      18 Oct 14  2019 cat -> /bin/cat.coreutils
+-rwxr-xr-x  1 root root   46592 Oct 14  2019 cat.coreutils
+lrwxrwxrwx  1 root root      21 Oct 14  2019 chattr -> /bin/chattr.e2fsprogs
+-rwxr-xr-x  1 root root   13648 Oct 14  2019 chattr.e2fsprogs
+lrwxrwxrwx  1 root root      20 Oct 14  2019 chgrp -> /bin/chgrp.coreutils
+-rwxr-xr-x  1 root root   87520 Oct 14  2019 chgrp.coreutils
+lrwxrwxrwx  1 root root      20 Oct 14  2019 chmod -> /bin/chmod.coreutils
+-rwxr-xr-x  1 root root   71136 Oct 14  2019 chmod.coreutils
+lrwxrwxrwx  1 root root      20 Oct 14  2019 chown -> /bin/chown.coreutils
+-rwxr-xr-x  1 root root   87520 Oct 14  2019 chown.coreutils
+-rwsr-xr-x  1 root root   17736 Oct 14  2019 clockdiff
+lrwxrwxrwx  1 root root      17 Oct 14  2019 cp -> /bin/cp.coreutils
+-rwxr-xr-x  1 root root  140768 Oct 14  2019 cp.coreutils
+lrwxrwxrwx  1 root root      19 Oct 14  2019 date -> /bin/date.coreutils
+-rwxr-xr-x  1 root root  132576 Oct 14  2019 date.coreutils
+lrwxrwxrwx  1 root root      17 Oct 14  2019 dd -> /bin/dd.coreutils
+-rwxr-xr-x  1 root root   99844 Oct 14  2019 dd.coreutils
+lrwxrwxrwx  1 root root      21 Oct 14  2019 df -> /usr/bin/df.coreutils
+lrwxrwxrwx  1 root root      21 Oct 14  2019 dmesg -> /bin/dmesg.util-linux
+-rwxr-xr-x  1 root root   79384 Oct 14  2019 dmesg.util-linux
+lrwxrwxrwx  1 root root      19 Oct 14  2019 echo -> /bin/echo.coreutils
+-rwxr-xr-x  1 root root   34260 Oct 14  2019 echo.coreutils
+lrwxrwxrwx  1 root root      15 Oct 14  2019 egrep -> /bin/egrep.grep
+-rwxr-xr-x  1 root root      28 Oct 14  2019 egrep.grep
+lrwxrwxrwx  1 root root      20 Oct 14  2019 false -> /bin/false.coreutils
+-rwxr-xr-x  1 root root   34260 Oct 14  2019 false.coreutils
+lrwxrwxrwx  1 root root      15 Oct 14  2019 fgrep -> /bin/fgrep.grep
+-rwxr-xr-x  1 root root      28 Oct 14  2019 fgrep.grep
+lrwxrwxrwx  1 root root      22 Oct 14  2019 getopt -> /bin/getopt.util-linux
+-rwxr-xr-x  1 root root   17792 Oct 14  2019 getopt.util-linux
+lrwxrwxrwx  1 root root      14 Oct 14  2019 grep -> /bin/grep.grep
+-rwxr-xr-x  1 root root  271904 Oct 14  2019 grep.grep
+lrwxrwxrwx  1 root root       3 Oct 14  2019 gtar -> tar
+lrwxrwxrwx  1 root root      16 Oct 14  2019 gunzip -> /bin/gunzip.gzip
+-rwxr-xr-x  2 root root    2345 Oct 14  2019 gunzip.gzip
+lrwxrwxrwx  1 root root      14 Oct 14  2019 gzip -> /bin/gzip.gzip
+-rwxr-xr-x  1 root root  108752 Oct 14  2019 gzip.gzip
+lrwxrwxrwx  1 root root      23 Oct 14  2019 hostname -> /bin/hostname.inetutils
+-rwxr-xr-x  1 root root   38372 Oct 14  2019 hostname.coreutils
+-rwxr-xr-x  1 root root   55028 Oct 14  2019 hostname.inetutils
+-rwxr-xr-x  1 root root   62848 Oct 14  2019 journalctl
+lrwxrwxrwx  1 root root      16 Oct 14  2019 kill -> /bin/kill.procps
+-rwxr-xr-x  1 root root   42904 Oct 14  2019 kill.coreutils
+-rwxr-xr-x  1 root root   25980 Oct 14  2019 kill.procps
+-rwxr-xr-x  1 root root   38272 Oct 14  2019 kill.util-linux
+-rwxr-xr-x  1 root root  169384 Oct 14  2019 kmod
+lrwxrwxrwx  1 root root      17 Oct 14  2019 ln -> /bin/ln.coreutils
+-rwxr-xr-x  1 root root   83428 Oct 14  2019 ln.coreutils
+lrwxrwxrwx  1 root root      17 Oct 14  2019 login -> /bin/login.shadow
+-rwxr-xr-x  1 root root   51296 Oct 14  2019 login.shadow
+-rwxr-xr-x  1 root root   54660 Oct 14  2019 loginctl
+lrwxrwxrwx  1 root root      17 Oct 14  2019 ls -> /bin/ls.coreutils
+-rwxr-xr-x  1 root root  173796 Oct 14  2019 ls.coreutils
+-rwxr-xr-x  1 root root   14623 Oct 14  2019 lsb_release
+lrwxrwxrwx  1 root root      15 Oct 14  2019 lsmod -> /bin/lsmod.kmod
+lrwxrwxrwx  1 root root       4 Oct 14  2019 lsmod.kmod -> kmod
+-rwxr-xr-x  1 root root   83340 Oct 14  2019 machinectl
+lrwxrwxrwx  1 root root      20 Oct 14  2019 mkdir -> /bin/mkdir.coreutils
+-rwxr-xr-x  1 root root   58848 Oct 14  2019 mkdir.coreutils
+lrwxrwxrwx  1 root root      20 Oct 14  2019 mknod -> /bin/mknod.coreutils
+-rwxr-xr-x  1 root root   46560 Oct 14  2019 mknod.coreutils
+lrwxrwxrwx  1 root root      25 Oct 14  2019 mktemp -> /usr/bin/mktemp.coreutils
+lrwxrwxrwx  1 root root      20 Oct 14  2019 more -> /bin/more.util-linux
+-rwxr-xr-x  1 root root   42356 Oct 14  2019 more.util-linux
+lrwxrwxrwx  1 root root      21 Oct 14  2019 mount -> /bin/mount.util-linux
+-rwsr-xr-x  1 root root   42372 Oct 14  2019 mount.util-linux
+lrwxrwxrwx  1 root root      26 Oct 14  2019 mountpoint -> /bin/mountpoint.util-linux
+-rwxr-xr-x  1 root root   13700 Oct 14  2019 mountpoint.util-linux
+lrwxrwxrwx  1 root root      17 Oct 14  2019 mv -> /bin/mv.coreutils
+-rwxr-xr-x  1 root root  157156 Oct 14  2019 mv.coreutils
+lrwxrwxrwx  1 root root      23 Oct 14  2019 nice -> /usr/bin/nice.coreutils
+lrwxrwxrwx  1 root root      17 Oct 14  2019 pidof -> /bin/pidof.procps
+-rwxr-xr-x  1 root root   17788 Oct 14  2019 pidof.procps
+lrwxrwxrwx  1 root root      17 Oct 14  2019 ping -> /bin/ping.iputils
+-rwsr-xr-x  1 root root   71632 Oct 14  2019 ping.iputils
+lrwxrwxrwx  1 root root      27 Oct 14  2019 printenv -> /usr/bin/printenv.coreutils
+lrwxrwxrwx  1 root root      14 Oct 14  2019 ps -> /bin/ps.procps
+-rwxr-xr-x  1 root root  120356 Oct 14  2019 ps.procps
+lrwxrwxrwx  1 root root      18 Oct 14  2019 pwd -> /bin/pwd.coreutils
+-rwxr-xr-x  1 root root   46560 Oct 14  2019 pwd.coreutils
+-rwxr-xr-x  1 root root   17836 Oct 14  2019 rarpd
+-rwxr-xr-x  1 root root   25984 Oct 14  2019 rdisc
+lrwxrwxrwx  1 root root      17 Oct 14  2019 rm -> /bin/rm.coreutils
+-rwxr-xr-x  1 root root   83424 Oct 14  2019 rm.coreutils
+lrwxrwxrwx  1 root root      20 Oct 14  2019 rmdir -> /bin/rmdir.coreutils
+-rwxr-xr-x  1 root root   54752 Oct 14  2019 rmdir.coreutils
+lrwxrwxrwx  1 root root      12 Oct 14  2019 sed -> /bin/sed.sed
+-rwxr-xr-x  1 root root  161628 Oct 14  2019 sed.sed
+lrwxrwxrwx  1 root root      14 Oct 14  2019 sh -> /bin/bash.bash
+lrwxrwxrwx  1 root root      20 Oct 14  2019 sleep -> /bin/sleep.coreutils
+-rwxr-xr-x  1 root root   38368 Oct 14  2019 sleep.coreutils
+lrwxrwxrwx  1 root root      19 Oct 14  2019 stat -> /bin/stat.coreutils
+-rwxr-xr-x  1 root root  108000 Oct 14  2019 stat.coreutils
+lrwxrwxrwx  1 root root      19 Oct 14  2019 stty -> /bin/stty.coreutils
+-rwxr-xr-x  1 root root   91616 Oct 14  2019 stty.coreutils
+lrwxrwxrwx  1 root root      14 Oct 14  2019 su -> /bin/su.shadow
+-rwsr-xr-x  1 root root   43228 Oct 14  2019 su.shadow
+-rwsr-xr-x  1 root root   50556 Oct 14  2019 su.util-linux
+lrwxrwxrwx  1 root root      19 Oct 14  2019 sync -> /bin/sync.coreutils
+-rwxr-xr-x  1 root root   38368 Oct 14  2019 sync.coreutils
+-rwxr-xr-x  1 root root  198016 Oct 14  2019 systemctl
+-rwxr-xr-x  1 root root   13708 Oct 14  2019 systemd-ask-password
+-rwxr-xr-x  1 root root   13688 Oct 14  2019 systemd-escape
+-rwxr-xr-x  1 root root   34172 Oct 14  2019 systemd-firstboot
+-rwxr-xr-x  1 root root  128648 Oct 14  2019 systemd-hwdb
+-rwxr-xr-x  1 root root   13696 Oct 14  2019 systemd-inhibit
+-rwxr-xr-x  1 root root   17796 Oct 14  2019 systemd-machine-id-setup
+-rwxr-xr-x  1 root root   13696 Oct 14  2019 systemd-notify
+-rwxr-xr-x  1 root root   46464 Oct 14  2019 systemd-sysusers
+-rwxr-xr-x  1 root root   75136 Oct 14  2019 systemd-tmpfiles
+-rwxr-xr-x  1 root root   30092 Oct 14  2019 systemd-tty-ask-password-agent
+lrwxrwxrwx  1 root root      12 Oct 14  2019 tar -> /bin/tar.tar
+-rwxr-xr-x  1 root root  605664 Oct 14  2019 tar.tar
+-rwxr-xr-x  1 root root   17912 Oct 14  2019 tftpd
+lrwxrwxrwx  1 root root      20 Oct 14  2019 touch -> /bin/touch.coreutils
+-rwxr-xr-x  1 root root  120288 Oct 14  2019 touch.coreutils
+-rwxr-xr-x  1 root root   17744 Oct 14  2019 tracepath
+-rwsr-xr-x  1 root root   17752 Oct 14  2019 traceroute6
+lrwxrwxrwx  1 root root      19 Oct 14  2019 true -> /bin/true.coreutils
+-rwxr-xr-x  1 root root   34260 Oct 14  2019 true.coreutils
+-rwxr-xr-x  2 root root  673436 Oct 14  2019 udevadm
+lrwxrwxrwx  1 root root      22 Oct 14  2019 umount -> /bin/umount.util-linux
+-rwsr-xr-x  1 root root   30080 Oct 14  2019 umount.util-linux
+lrwxrwxrwx  1 root root      20 Oct 14  2019 uname -> /bin/uname.coreutils
+-rwxr-xr-x  1 root root   42464 Oct 14  2019 uname.coreutils
+-rwxr-xr-x  2 root root    2345 Oct 14  2019 uncompress
+lrwxrwxrwx  1 root root      17 Oct 14  2019 vi -> /usr/bin/vim.tiny
+lrwxrwxrwx  1 root root      17 Oct 14  2019 watch -> /bin/watch.procps
+-rwxr-xr-x  1 root root   22048 Oct 14  2019 watch.procps
+lrwxrwxrwx  1 root root      14 Oct 14  2019 zcat -> /bin/zcat.gzip
+-rwxr-xr-x  1 root root    1983 Oct 14  2019 zcat.gzip
 
 ~~~
 
