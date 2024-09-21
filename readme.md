@@ -143,7 +143,7 @@ do sistema é o /bin com comanso "ls -l -a" que combina duas opções do comando
 
 
 <details>
-  <summary>..........CLIQUE PARA EXPANDIR O CÓDIGO............</summary>
+  <summary>..........>>CLIQUE PARA EXPANDIR O CÓDIGO<<............</summary>
 
   ```
 
