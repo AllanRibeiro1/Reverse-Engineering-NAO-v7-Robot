@@ -139,7 +139,7 @@ mmcblk0rpmb  179:24   0    4M  0 disk
 ~~~
 
 Vejamos quais comandos do Sitema NAO v7 podemos utilizar; o diretório do Linux que guarda todos os comandos 
-do sistema é o /bin com comando "ls -l -a" que combina duas opções do comando "ls" para listar arquivos e diretórios com mais detalhes e incluir arquivos ocultos.
+do sistema é o /bin com o comando "ls -l -a" que combina duas opções do comando "ls" para listar arquivos e diretórios com mais detalhes e incluir arquivos ocultos.
 
 
 <details>
