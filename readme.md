@@ -341,7 +341,7 @@ Essas informações são importantes para quando formos customizar o código do 
 
 ## Comandos "cat" e "vi" :feet::feet:
 
-Como listamos em /bin o Robô NAO v7 aceita o editor de arquivos comando "vi" e o leitor de arquivos comando "cat" do Linux.
+Listamos o diretório /bin e descobrimos que o Robô NAO v7 aceita o editor de arquivos comando "vi" e o leitor de arquivos comando "cat" do Linux.
 Vamos fazer uma varredura nos arquivos de /home/nao para entender quais suas funções no funcionamento do Robô NAO v7.
 
 ````
