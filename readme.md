@@ -316,7 +316,7 @@ lrwxrwxrwx  1 root root      20 Oct 14  2019 chgrp -> /bin/chgrp.coreutils
 
 Não é nosso propósito explicar cada comando, executável e interpretador contidos no diretório /bin, faremos isso mais na frente 
 separando os que são puro LINUX para focar nos que foram incluídos pelo fabricante. Uma breve explicação dos motivos de 
-listar os arquivos deste diretório: Tentei obter informações de hardware do NAO v7 como comando "lshw", mas o "bash", 
+listar os arquivos deste diretório: Tentei obter informações de hardware do NAO v7 com o comando "lshw", mas o "bash", 
 que é o interpretador do Shell retornou um erro. Por enquanto só podemos trabalhar com os comandos que o NAO v7 pode suportar. 
 
 Continue-mos nossa exploração...
