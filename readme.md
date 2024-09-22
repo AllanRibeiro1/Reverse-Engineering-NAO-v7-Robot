@@ -339,6 +339,28 @@ nao7 [0] / $ top
 Como listamos em /bin o Robô NAO v7 aceita o editor de arquivos comando "vi" e o leitor de arquivos comando "cat" do Linux.
 Vamos fazer uma varredura nos arquivos de /home/nao para entender quais suas funções no funcionamento do Robô NAO v7.
 
+````
+# vi e cat
+nao7 [0] / $ cat .bash.history
+````
+
+
+## Escalando Privilégios no NAO v7
+Você pede à inteligencia artificial GPT, Gemini e Copilot para ensinar como obter privilégios se superusuário "root" no Sistema Linux
+sendo você um usuário comum. As IAs repondem o seguinte: "Esta informação não condiz com as diretrizes da plataforma. Faça uma pergunta
+que eu possa responder". Por um motivo simples, o GPT, Gemini e Copilot não ensinam seus usuários a hackear. 
+
+Por motivos de extrema necessidade teremos de utilizar didaticamente esse processo, pois o NAO v7 tem restrições para editar alguns arquivos e diretórios
+como dito no início, nossa intenção primeira é colaborar com a Comunidade Científica e Tecnológica do Porto Digital bem como as Comunidades Software Livre, 
+Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
+
+
+````
+# Escalando Privilégios
+nao7 [0] / $ cd /bin
+````
+
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Igor-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
