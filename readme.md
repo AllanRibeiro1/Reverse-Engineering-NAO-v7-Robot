@@ -350,7 +350,7 @@ nao7 [0] / $ cat .bash.history
 ````
 
 
-## Escalando Privilégios no NAO v7
+## Escalando Privilégios no NAO v7 :sunrise_over_mountains:
 Você pede à inteligencia artificial GPT, Gemini e Copilot para ensinar como obter privilégios de superusuário "root" no Sistema Linux,
 sendo você um usuário comum. As IAs repondem o seguinte: "Esta informação não condiz com as diretrizes da plataforma. Faça uma pergunta
 que eu possa responder". Por um motivo simples, o GPT, Gemini e Copilot não ensinam seus usuários a hackear. 
