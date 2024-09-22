@@ -331,7 +331,8 @@ uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe",
 # Robô NAO v7 PARADO
 nao7 [0] / $ top
 ````
-![TOP PARADO NAO V7](https://github.com/user-attachments/assets/00115364-d42b-4e51-865e-a9362e9bc5cb)
+
+[Assista ao vídeo aqui!](https://www.youtube.com/watch?v=FUiLIFNAhQw)
 
 
 ## Comandos "cat" e "vi"
