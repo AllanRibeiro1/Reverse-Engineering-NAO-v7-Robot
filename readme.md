@@ -314,13 +314,17 @@ lrwxrwxrwx  1 root root      20 Oct 14  2019 chgrp -> /bin/chgrp.coreutils
 -rwxr-xr-x  1 root root   87520 Oct 14  2019 chgrp.coreutils..........................................................
 ```
 
-Não é nosso propósito informar cada comando, executável e interpretador contidos no diretório /bin. Mas uma breve
-explicação dos motivos de listar os arquivos deste diretório: Tentei obter informações de hardware do NAO v7 com
-o comando "lshw", mas o "bash", que é o interpretador do Shell retornou um erro. Por enquanto só podemos trabalhar 
-com os comandos que o NAO v7 pode suportar. Continue-mos nossa exploração...
+Não é nosso propósito explicar cada comando, executável e interpretador contidos no diretório /bin, faremos isso mais na frente 
+separando os que são puro LINUX para focar nos que foram incluídos pelo fabricante. Uma breve explicação dos motivos de 
+listar os arquivos deste diretório: Tentei obter informações de hardware do NAO v7 como comando "lshw", mas o "bash", 
+que é o interpretador do Shell retornou um erro. Por enquanto só podemos trabalhar com os comandos que o NAO v7 pode suportar. 
+
+Continue-mos nossa exploração...
+
+## Bate o Coração do Robô Nao v7 
 
 Com o comando "top" verifiquei os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Movimentando".
-Foi bem interessante esta exploração! Do lado esquerdo do vídeo o Robô Nao v7 esta "parado", e do lado direito do vídeo o NAO está execultando
+Foi bem interessante esta exploração, foi como ver o seu coração bater! Do lado esquerdo do vídeo o Robô NAO v7 esta "parado", e do lado direito do vídeo o NAO está execultando
 uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe", com som e movimentos dos braços e sensores. Vejam a seguir o robô parado: 
 
 ````
@@ -329,6 +333,11 @@ nao7 [0] / $ top
 ````
 ![TOP PARADO NAO V7](https://github.com/user-attachments/assets/00115364-d42b-4e51-865e-a9362e9bc5cb)
 
+
+## Comandos "cat" e "vi"
+
+Como listamos em /bin o não aceita o editor de arquivos "vi" do Linux e o Leitor de arquivos "cat".
+Vamos fazer uma varredura nos arquivos de /home/nao para entender quais suas funções no funcionamento do Robô NAO v7.
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Igor-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
