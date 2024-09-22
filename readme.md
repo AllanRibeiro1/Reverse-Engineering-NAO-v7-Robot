@@ -332,7 +332,7 @@ uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe",
 nao7 [0] / $ top
 ````
 
-[![Clique para assistir](https://i.ytimg.com/vi/FUiLIFNAhQw/hqdefault.jpg)](https://www.youtube.com/youtube.com/watch?v=FUiLIFNAhQw)
+[![Clique para assistir](https://i.ytimg.com/vi/FUiLIFNAhQw/hqdefault.jpg)](https://www.youtube.com/watch?v=FUiLIFNAhQw)
 
 
 ## Comandos "cat" e "vi"
