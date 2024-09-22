@@ -336,7 +336,7 @@ nao7 [0] / $ top
 
 ## Comandos "cat" e "vi"
 
-Como listamos em /bin o não aceita o editor de arquivos "vi" do Linux e o Leitor de arquivos "cat".
+Como listamos em /bin o Robô NAO v7 aceita o editor de arquivos comando "vi" do Linux e o Leitor de arquivos comando "cat".
 Vamos fazer uma varredura nos arquivos de /home/nao para entender quais suas funções no funcionamento do Robô NAO v7.
 
 <div style="display: inline_block"><br>
