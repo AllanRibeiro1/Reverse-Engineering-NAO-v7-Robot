@@ -324,8 +324,9 @@ Continue-mos nossa exploração...
 ## Bate o Coração do Robô NAO v7 
 
 Com o comando "top" verificamos os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Em Movimento".
-Foi bem interessante esta exploração, foi como ver o seu coração bater! Do lado esquerdo do vídeo o Robô NAO v7 esta "parado", e do lado direito do vídeo o Robô NAO v7 está executando
-uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe", com som e movimentos dos braços e sensores. VEJA CLICANDO NO VÍDEO A SEGUIR: 
+Foi bem interessante esta exploração, foi como ver o seu coração bater! Repare a "%CPU" do lado esquerdo do vídeo o Robô NAO v7 esta "parado", e do lado direito do vídeo o Robô NAO v7 está executando uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe", com som e movimentos dos braços e sensores. 
+
+VEJA CLICANDO NO VÍDEO A SEGUIR: 
 
 ````
 # Robô NAO v7 "PARADO" e "EM MOVIMENTO"
@@ -333,6 +334,9 @@ nao7 [0] / $ top
 ````
 
 [![Clique para assistir](https://i.ytimg.com/vi/FUiLIFNAhQw/hqdefault.jpg)](https://www.youtube.com/watch?v=FUiLIFNAhQw)
+
+O Robô Parado a CPU fica na casa dos 49%, já em movimento ativado pelo "Choreographe", tem picos de processamento da %CPU de mais de 150%.
+Essas informações são importantes para quando formos customizar o código do Robô NAO v7.
 
 
 ## Comandos "cat" e "vi"
