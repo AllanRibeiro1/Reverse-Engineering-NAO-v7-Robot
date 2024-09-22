@@ -1,4 +1,4 @@
-## Engenharia Reversa Robô NAO v7 
+## Engenharia Reversa Robô NAO v7 :satellite:
 
 Este projeto visa a colaboração para Engenharia Reversa do Robô NAO v7, parte do Hackathon 
 promovido pelo CETEC e a Residência Tecnológica do Porto Digital do Recife com ajuda da EMPREL.
@@ -9,7 +9,7 @@ a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede M
 ![NAO Canvas Engenharia Reversa](https://github.com/user-attachments/assets/e7bfa0da-7063-4be5-99bb-86bf1b29bb4f)
 
 
-## Ideia / Projeto 
+## Ideia / Projeto :milky_way:
 1. Explorar o Sistema Operacional do Robô NAO v7.
 2. Explorar o interior do NAO com Fotografias e criação de Estratégias de Reparos do Robô.
 
@@ -17,7 +17,7 @@ a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede M
 surgiu durante o Hackathon para colaborar com a Comunidade Científica e Tecnológica do Porto Digital
 bem como as Comunidades Software Livre, Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
 
-## Vamos em Frente!
+## Vamos em Frente! :rocket:
 
 Conectar o cabo RJ45 no Robô NAO v7 ao Notebook > Ligar o botão do peito do NAO > Inicia o seu Funcionamento > Sistema Carregado, 
 aperta o Botão NAO novamente > Anota o IP do NAO > Usar um Prompt SSH com IP do NAO > Digita Login e Senha > 
@@ -61,7 +61,7 @@ Arquivos Ocultos dentro de /home/nao ~:
 .rnd  
 ~~~
 
-## Navegando no NAO v7
+## Navegando no NAO v7 :ship::anchor:
 
 Voltaremos a falar dos aquivos e diretórios em /home/nao (~ $) mais na frente.
 Mas antes, vamos deixar algumas coisas claras, este tutorial, em princípio, entende que você 
@@ -326,7 +326,7 @@ Continue-mos nossa exploração...
 Com o comando "top" verificamos os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Em Movimento".
 Foi bem interessante esta exploração, foi como ver o seu coração bater! Repare a "%CPU" do lado esquerdo do vídeo o Robô NAO v7 esta "parado", e do lado direito do vídeo o Robô NAO v7 está executando uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe", com som e movimentos dos braços e sensores. 
 
-VEJA CLICANDO NO VÍDEO A SEGUIR: 
+VEJA CLICANDO NO VÍDEO A SEGUIR :cinema:: 
 
 ````
 # Robô NAO v7 "PARADO" e "EM MOVIMENTO"
@@ -339,7 +339,7 @@ O Robô Parado a CPU fica na casa dos 49%. "Em Movimento", ativado pelo "Choreog
 Essas informações são importantes para quando formos customizar o código do Robô NAO v7.
 
 
-## Comandos "cat" e "vi"
+## Comandos "cat" e "vi" :feet::feet:
 
 Como listamos em /bin o Robô NAO v7 aceita o editor de arquivos comando "vi" e o leitor de arquivos comando "cat" do Linux.
 Vamos fazer uma varredura nos arquivos de /home/nao para entender quais suas funções no funcionamento do Robô NAO v7.
@@ -358,7 +358,7 @@ que eu possa responder". Por um motivo simples, o GPT, Gemini e Copilot não ens
 Por motivos de extrema necessidade teremos de utilizar didaticamente esse processo, pois o NAO v7 tem restrições para editar alguns arquivos e diretórios.
 Como dito no início, nossa intenção primeira é colaborar com a Comunidade Científica e Tecnológica do Porto Digital bem como as Comunidades Software Livre, 
 Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos. Vamos abrir mais esta "Caixa de Pandora", o que significa realizar uma ação que pode parecer inofensiva, 
-mas que acaba causando muitos problemas de segurança. Mas calma que pode ser desfeito!
+mas que acaba causando muitos problemas de segurança :warning:. Mas calma que pode ser desfeito!
 
 
 
