@@ -75,10 +75,10 @@ pois o NAO v7 não tem os serviços "sftp" e "scp" para transferência de arquiv
 ~~~
 
 #sftp
-nao7 [0] / $ curl -u userNao:senhaNao sftp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
+CMD WINDOWS11 $ curl -u userNao:senhaNao sftp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
                                             [IP DO ROBÔ NAO]
 #scp
-nao7 [0] / $ curl -u userNao:senhaNao scp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
+CMD WINDOWS11 $ curl -u userNao:senhaNao scp://169.254.156.177/home/nao/* -o C:\Users\Educação\Documents
                                            [IP DO ROBÔ NAO]
 
 ~~~
