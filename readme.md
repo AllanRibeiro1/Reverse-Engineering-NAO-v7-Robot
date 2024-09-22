@@ -323,7 +323,7 @@ Continue-mos nossa exploração...
 
 ## Bate o Coração do Robô NAO v7 
 
-Com o comando "top" verificamos os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Movimentando".
+Com o comando "top" verificamos os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Em Movimento".
 Foi bem interessante esta exploração, foi como ver o seu coração bater! Do lado esquerdo do vídeo o Robô NAO v7 esta "parado", e do lado direito do vídeo o Robô NAO v7 está executando
 uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe", com som e movimentos dos braços e sensores. VEJA CLICANDO NO VÍDEO A SEGUIR: 
 
