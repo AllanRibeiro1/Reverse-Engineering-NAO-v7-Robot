@@ -15,7 +15,7 @@ a Inteligência Artificial para auxiliar o desenvolvimento das Escolas da Rede M
 
 É uma oportunidade para gerar conhecimentos e aprendizados qualitativos para todos envolvidos que 
 surgiu durante o Hackathon para colaborar com a Comunidade Científica e Tecnológica do Porto Digital
-bem como as Comunidades: Software Livre, Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
+bem como as Comunidades Software Livre, Hardware Livre, Maker, Entusiastas, Empreendedores e Curiosos.
 
 ## Vamos em Frente!
 
