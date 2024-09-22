@@ -321,7 +321,7 @@ que é o interpretador do Shell retornou um erro. Por enquanto só podemos traba
 
 Continue-mos nossa exploração...
 
-## Bate o Coração do Robô NAO v7 
+## :heartbeat: Bate o Coração do Robô NAO v7 :heartbeat:
 
 Com o comando "top" verificamos os processos em execução detalhados do Sistema Operacional enquanto o Robô estava "Parado" e "Em Movimento".
 Foi bem interessante esta exploração, foi como ver o seu coração bater! Repare a "%CPU" do lado esquerdo do vídeo o Robô NAO v7 esta "parado", e do lado direito do vídeo o Robô NAO v7 está executando uma performance de "Alongamento Academia" iniciado pelo programa "Choreographe", com som e movimentos dos braços e sensores. 
