@@ -335,7 +335,7 @@ nao7 [0] / $ top
 
 [![Clique para assistir](https://i.ytimg.com/vi/FUiLIFNAhQw/hqdefault.jpg)](https://www.youtube.com/watch?v=FUiLIFNAhQw)
 
-O Robô Parado a CPU fica na casa dos 49%. "Em Movimento", ativado pelo "Choreographe", tem picos de processamento da %CPU de mais de 150%.
+Com o Robô "Parado" a 1° linha da CPU fica na casa dos 49%. "Em Movimento", ativado pelo "Choreographe", tem picos de processamento da %CPU de mais de 150%.
 Essas informações são importantes para quando formos customizar o código do Robô NAO v7.
 
 
