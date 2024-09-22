@@ -1,4 +1,4 @@
-## Engenharia Reversa Robô NAO v7 :satellite:
+## Engenharia Reversa Robô NAO v7 :satellite: :computer:
 
 Este projeto visa a colaboração para Engenharia Reversa do Robô NAO v7, parte do Hackathon 
 promovido pelo CETEC e a Residência Tecnológica do Porto Digital do Recife com ajuda da EMPREL.
@@ -92,7 +92,7 @@ Linux nao7 4.4.185-rt184-aldebaran #1 SMP PREEMPT RT Mon Oct 14 14:20:37 UTC 201
  
 ~~~
 
-Listamos as informações de memória com o comando "free -h".
+Listamos as informações de memória com o comando "free -h". :floppy_disk:
 
 ~~~
 nao7 [0] / $ free -h
@@ -101,7 +101,7 @@ Mem:          3.8Gi       1.2Gi       2.0Gi        13Mi       573Mi       2.5Gi
 Swap:            0B          0B          0B
 ~~~
 
-Listamos as informações de uso do disco com o comando "df -h".
+Listamos as informações de uso do disco com o comando "df -h". :dvd:
 
 ~~~
 nao7 [0] / $ df -h
@@ -121,7 +121,7 @@ tmpfs           385M  3.4M  381M   1% /run/user/1001
 ~~~
 
 Listamos as informações sobre todos os dispositivos de bloco conectados ao sistema com o comando "lsblk".
-Inclui discos rígidos, SSDs, partições e dispositivos removíveis como pen drives. 
+Inclui discos rígidos, SSDs, partições e dispositivos removíveis como pen drives. :minidisc:
 
 ~~~
 
