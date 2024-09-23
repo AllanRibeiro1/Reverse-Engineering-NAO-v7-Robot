@@ -704,9 +704,9 @@ nao7 [0] / $ cd /bin
 
 ## Agradecimentos
 
-Essas pessoas estão na linha de frente do Hackathon NAO e pouco ou nada teríamos feito sem elas.
+### Essas pessoas estão na linha de frente do Hackathon NAO e pouco ou nada teríamos feito sem elas.
 
-### Professor Pedro Ferreira 
+### Professor Pedro Ferreira - CETEC
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -718,7 +718,7 @@ Essas pessoas estão na linha de frente do Hackathon NAO e pouco ou nada teríam
 </div>
 
 
-### Professor Thiago Lazah
+### Professor Thiago Lazah - CETEC
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -730,7 +730,7 @@ Essas pessoas estão na linha de frente do Hackathon NAO e pouco ou nada teríam
 </div>
 
 
-### Mentor Arthur Alvim
+### Mentor Arthur Alvim - Porto Digital
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -742,7 +742,7 @@ Essas pessoas estão na linha de frente do Hackathon NAO e pouco ou nada teríam
 </div>
 
 
-### Estagiário Everton 
+### Estagiário Everton - CETEC
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
