@@ -344,7 +344,7 @@ Essas informações são importantes para quando formos customizar o código do 
 Listamos o diretório /bin e descobrimos que o Robô NAO v7 aceita o editor de arquivos comando "vi" e o leitor de arquivos comando "cat" do Linux.
 Vamos fazer uma varredura nos arquivos de /home/nao (~) para entender quais suas funções no funcionamento do Robô NAO v7.
 
-Vamos analisar o que temos no arquivo "install.sh" no diretório "/home/nao/_controle-robo-nao".
+### Vamos analisar o que temos no arquivo "install.sh" no diretório "/home/nao/_controle-robo-nao".
 
 O que vemos neste  Script Shell é o donwload de get-pip.py que é um binário de codificação base85 de um arquivo zip, este arquivo zip contém 
 uma cópia inteira do pip (versão 24.2). E a instalação  do Flask==1.1.1. Flask é um framework de aplicativo web WSGI leve. Se foi bem sucedido,
@@ -372,7 +372,7 @@ pip install Flask-SocketIO==4.2.1
 pip install Flask-Cors
 
 ````
-Vamos analisar o que temos no arquivo "main.py" no diretório "/home/nao/_controle-robo-nao".
+### Vamos analisar o que temos no arquivo "main.py" no diretório "/home/nao/_controle-robo-nao".
 
 Este script foi desenvolvido para controlar as funções do robô NAO v7 como podemos ver nesta importação no início: 
 "#from NAOLIBS import os, time, sys, uuid, AsyncThread, Audio, Bateria, Comportamento, Config, Led, Memoria, ModoAutonomo, Motor, Sensor, Sistema"
