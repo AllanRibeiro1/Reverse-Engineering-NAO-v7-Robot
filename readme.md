@@ -702,7 +702,7 @@ nao7 [0] / $ cd /bin
 ````
 
 
-## Agradecimentos
+## Agradecimentos :clap: :rocket:
 
 ### Essas pessoas estão na linha de frente do Hackathon NAO e pouco ou nada teríamos feito sem elas.
 
