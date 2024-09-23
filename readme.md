@@ -378,10 +378,11 @@ Este script foi desenvolvido para controlar as funções do robô NAO v7 como po
 "#from NAOLIBS import os, time, sys, uuid, AsyncThread, Audio, Bateria, Comportamento, Config, Led, Memoria, ModoAutonomo, Motor, Sensor, Sistema"
 
 O código indica que foi inscrito por "Matheus Johann Araujo". Reza a lenda no CETEC de um programador pernambucano que presta grandes
-serviços aos laboratórios de Robótica, dizem também que ele foi capaz de sicronizar três robores NAO usando PHP para apresentação de dança.
+serviços aos laboratórios de Robótica, dizem também que ele foi capaz de sincronizar três robores NAO usando PHP para apresentação de performance de dança.
 
 Podemos ver que seu código é bem limpo, mas não podemos afirmar, por enquanto, que seu funcionamento conflita com o processamento do NAO v7 de outros códigos.
-Vou conversar com ele, pois a estratégia que ele adotou para se comunicar com o NAO v7 foi usando o Flask como servidor assíncrono TCP/UDP na porta 4321.
+Vou conversar com ele, pois a estratégia que ele adotou para se comunicar com o NAO v7 foi bem artificiosa usando o Flask como transformando o Robô NAO em servidor 
+assíncrono TCP/UDP pela porta 4321.
 
 
 
