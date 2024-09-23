@@ -377,7 +377,7 @@ Vamos analisar o que temos no arquivo "main.py" no diretório "/home/nao/_contro
 Este script foi desenvolvido para controlar as funções do robô NAO v7 como podemos ver nesta importação no início: 
 "#from NAOLIBS import os, time, sys, uuid, AsyncThread, Audio, Bateria, Comportamento, Config, Led, Memoria, ModoAutonomo, Motor, Sensor, Sistema"
 
-O código indica que foi inscrito por "Matheus Johann Araujo". Reza a lenda no CETEC de um :trident: programador pernambucano que presta grandes
+O código indica que foi escrito por "Matheus Johann Araujo". Reza a lenda no CETEC de um :trident: programador pernambucano que presta grandes
 serviços aos laboratórios de Robótica, dizem também que ele foi capaz de sincronizar três robores NAO usando PHP para apresentação de performance de dança.:dancer:
 
 Podemos ver que seu código é bem limpo, mas não podemos afirmar, por enquanto, que seu funcionamento conflita com o processamento do NAO v7 de outros códigos.
