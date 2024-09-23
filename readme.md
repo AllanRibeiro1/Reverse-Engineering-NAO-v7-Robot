@@ -706,7 +706,7 @@ nao7 [0] / $ cd /bin
 
 Essas pessoas estão na linha de frente do Hockathon NAO e pouco ou nada teríamos feito sem elas!
 
-Professor Pedro Ferreira 
+### Professor Pedro Ferreira 
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="https://www.instagram.com/allan_igor_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -717,7 +717,8 @@ Professor Pedro Ferreira
   
 </div>
 
-Professor Thiago Lazah
+
+### Professor Thiago Lazah
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="https://www.instagram.com/allan_igor_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -728,7 +729,8 @@ Professor Thiago Lazah
   
 </div>
 
-Mentor Arthur Alvim
+
+### Mentor Arthur Alvim
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="https://www.instagram.com/allan_igor_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -739,7 +741,8 @@ Mentor Arthur Alvim
   
 </div>
 
-Estagiário Everton 
+
+### Estagiário Everton 
 <div> 
   <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="https://www.instagram.com/allan_igor_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
