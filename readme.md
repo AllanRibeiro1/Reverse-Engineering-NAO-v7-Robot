@@ -345,6 +345,11 @@ Listamos o diretório /bin e descobrimos que o Robô NAO v7 aceita o editor de a
 Vamos fazer uma varredura nos arquivos de /home/nao (~) para entender quais suas funções no funcionamento do Robô NAO v7.
 
 Vamos analisar o que temos no arquivo "install.sh" no diretório "/home/nao/_controle-robo-nao".
+
+O que vemos neste  Script Shell é a importação de get-pip.py que é um binário de codificação base85 de um arquivo zip, este arquivo zip contém 
+uma cópia inteira do pip (versão 24.2). E a instalação  do Flask==1.1.1. Flask é um framework de aplicativo web WSGI leve. Se foi bem sucedido,
+podemos utilizar este artifício e aproveitar o "pip" para instalar Python3, Tensorflow, Numpy entre outros.
+
 ````
 # Comando cat
 nao7 [0] ~ $ dir
@@ -368,6 +373,16 @@ pip install Flask-Cors
 
 ````
 Vamos analisar o que temos no arquivo "main.py" no diretório "/home/nao/_controle-robo-nao".
+
+Este script foi desenvolvido para controlar as funções do robô NAO v7 como podemos ver nesta importação no início: 
+"#from NAOLIBS import os, time, sys, uuid, AsyncThread, Audio, Bateria, Comportamento, Config, Led, Memoria, ModoAutonomo, Motor, Sensor, Sistema"
+
+O código indica que foi inscrito por "Matheus Johann Araujo". Reza a lenda no CETEC de um programador pernambucano que presta grandes
+serviços aos laboratórios de Robótica, dizem também que ele foi capaz de sicronizar três robores NAO usando PHP para apresentação de dança.
+
+Podemos ver que seu código é bem limpo, mas não podemos afirmar, por enquanto, que seu funcionamento conflita com o processamento do NAO v7 de outros códigos.
+Vou conversar com ele, pois a estratégia que ele usou para se comunicar com o NAO v7 foi exatamente esta que estamos fazendo por meio do protocolo SSH.
+
 
 
 <details>
