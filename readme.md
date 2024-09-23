@@ -704,7 +704,7 @@ nao7 [0] / $ cd /bin
 
 ## Agradecimentos
 
-Essas pessoas estão na linha de frente do Hockathon NAO e pouco ou nada teríamos feito sem elas!
+Essas pessoas estão na linha de frente do Hackathon NAO e pouco ou nada teríamos feito sem elas.
 
 ### Professor Pedro Ferreira 
 <div> 
