@@ -381,7 +381,7 @@ O código indica que foi inscrito por "Matheus Johann Araujo". Reza a lenda no C
 serviços aos laboratórios de Robótica, dizem também que ele foi capaz de sicronizar três robores NAO usando PHP para apresentação de dança.
 
 Podemos ver que seu código é bem limpo, mas não podemos afirmar, por enquanto, que seu funcionamento conflita com o processamento do NAO v7 de outros códigos.
-Vou conversar com ele, pois a estratégia que ele usou para se comunicar com o NAO v7 foi usando o Flesk como servidor assíncrono TCP/UDP na porta 4321.
+Vou conversar com ele, pois a estratégia que ele adotou para se comunicar com o NAO v7 foi usando o Flesk como servidor assíncrono TCP/UDP na porta 4321.
 
 
 
