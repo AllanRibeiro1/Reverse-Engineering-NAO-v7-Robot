@@ -346,7 +346,7 @@ Vamos fazer uma varredura nos arquivos de /home/nao (~) para entender quais suas
 
 Vamos analisar o que temos no arquivo "install.sh" no diretório "/home/nao/_controle-robo-nao".
 
-O que vemos neste  Script Shell é a importação de get-pip.py que é um binário de codificação base85 de um arquivo zip, este arquivo zip contém 
+O que vemos neste  Script Shell é o donwload de get-pip.py que é um binário de codificação base85 de um arquivo zip, este arquivo zip contém 
 uma cópia inteira do pip (versão 24.2). E a instalação  do Flask==1.1.1. Flask é um framework de aplicativo web WSGI leve. Se foi bem sucedido,
 podemos utilizar este artifício engenhoso aproveitando o "pip" para instalar Python3, Tensorflow, Numpy entre outros.
 
