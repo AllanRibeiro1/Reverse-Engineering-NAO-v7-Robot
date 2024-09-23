@@ -371,7 +371,7 @@ Vamos analisar o que temos no arquivo "main.py" no diretório "/home/nao/_contro
 
 
 <details>
-  <summary>>>CLIQUE PARA EXPANDIR O CÓDIGO "/home/nao/_controle-robo-nao/main.py" <<</summary> 
+  <summary>>> CLIQUE PARA EXPANDIR O CÓDIGO "/home/nao/_controle-robo-nao/main.py" <<</summary> 
 
   ```
 # Comando cat
@@ -646,6 +646,7 @@ ServerSocketIO()
 nao7 [0] ~/_controle-robo-nao $
 
 ```
+</details>
 
 ```
 # Pré-visualização do arquivo "main.py", click em ">>CLIQUE PARA EXPANDIR O CÓDIGO<<" para vê-lo completo.
